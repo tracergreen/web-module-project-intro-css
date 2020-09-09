@@ -74,12 +74,17 @@ h1 {
     line-height: 3em;
     margin: 2em;
 }
+.heading div {
+    box-sizing: border-box;
+    margin: 1% auto;
+    width: 48%;
+    position: relative;
+}
 .heading-img {
     border-radius: 50%;
-    height: 10%;
-    width: 10%;
+    height: 6em;
+    width: 6em;
     float: left;
-
 }
 .plan {
     background-color: #FF764E;
