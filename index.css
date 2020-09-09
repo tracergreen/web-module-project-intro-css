@@ -46,18 +46,24 @@ table {
 	border-spacing: 0;
 }
 /* start new css coding here*/
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Roboto Mono', monospace;
     font-size: 24px;
 }
 nav ul li {
     display: inline-flex;
-    max-height: 3em;
-    max-width: 4em;
+    height: 5em;
+    width: 8em;
     padding: 2em;
     border-radius: 2em;
     list-style-type: none;
     text-align: center;
+    font-size: .5em;
+    box-sizing: border-box;
+    min-width: 150px;
 }
 h1 {
     font-size: 2em;
@@ -73,7 +79,7 @@ h1 {
     height: 10%;
     width: 10%;
     float: left;
-    box-sizing: content-box;
+
 }
 .plan {
     background-color: #FF764E;
@@ -91,11 +97,18 @@ p {
     text-align: center;
     background-color: #DDB9A3;
 }
-img.fire {
-    width: 200px;
+.fire img {
+    width: 10em;
     height: auto;
+}
+.reservations img {
+    width: 10em;
+    height: auto; 
 }
 .footer-img {
     height: auto;
     width: fit-content;
+}
+footer {
+    background-color: #F9E7DC;
 }
