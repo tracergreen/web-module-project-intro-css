@@ -48,9 +48,10 @@ table {
 /* start new css coding here*/
 body {
     font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
 }
 nav ul li {
-    display: inline-block;
+    display: inline-flex;
     max-height: 3em;
     max-width: 4em;
     padding: 2em;
@@ -65,12 +66,14 @@ h1 {
 .heading {
     text-align: center;
     line-height: 3em;
+    margin: 2em;
 }
 .heading-img {
     border-radius: 50%;
     height: 10%;
     width: 10%;
     float: left;
+    box-sizing: content-box;
 }
 .plan {
     background-color: #FF764E;
@@ -84,8 +87,12 @@ h1 {
 p {
     line-height: 1.5em;
 }
+.info {
+    text-align: center;
+    background-color: #DDB9A3;
+}
 img.fire {
-    width: 2em;
+    width: 200px;
     height: auto;
 }
 .footer-img {
