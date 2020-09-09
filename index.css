@@ -51,17 +51,17 @@ table {
 }
 body {
     font-family: 'Roboto Mono', monospace;
-    font-size: 24px;
+    font-size: 30px;
 }
 nav ul li {
+    color: white;
     display: inline-flex;
     height: 5em;
     width: 8em;
     padding: 2em;
     border-radius: 2em;
-    list-style-type: none;
     text-align: center;
-    font-size: .5em;
+    font-size: .75em;
     box-sizing: border-box;
     min-width: 150px;
 }
@@ -106,13 +106,21 @@ p {
     width: 10em;
     height: auto;
 }
+.fire {
+    margin: 5em auto;
+    text-align: center;
+}
+.reservations {
+    margin: 5em auto;
+    text-align: center;
+}
 .reservations img {
     width: 10em;
     height: auto; 
 }
 .footer-img {
-    height: auto;
-    width: fit-content;
+    height: ;
+    width: 100%;
 }
 footer {
     background-color: #F9E7DC;
