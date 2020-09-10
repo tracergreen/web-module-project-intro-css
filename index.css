@@ -59,10 +59,11 @@ nav ul li {
     font-size: 1rem;
     width: 8em;
     margin-top: 2em;
+    margin-bottom: 2em;
 }
 nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 h1 {
     font-size: 2em;
