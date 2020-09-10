@@ -70,9 +70,7 @@ h1 {
     font-family: 'Chelsea Market', cursive;
 }
 .heading {
-    text-align: center;
-    line-height: 3em;
-    margin: 2em;
+    text-align: center; 
 }
 .heading div {
     display: flex;
@@ -95,16 +93,31 @@ h1 {
 .involve {
     background-color: #FFCD69;
 }
+
+.info p {
+    text-align: center;
+    background-color: #DDB9A3;
+    color: white;
+    width: 100%;    
+}
+
 p {
-    line-height: 1.5em;
+    line-height: 1em;
     width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
-.info {
-    text-align: center;
-    background-color: #DDB9A3;
+
+
+.flex {
+    display: flex;
+    flex-flow: row;
 }
+.flex-words {
+    display: flex;
+    text-align: center;
+}
+
 .fire img {
     width: 10em;
     height: auto;
@@ -122,7 +135,7 @@ p {
     height: auto; 
 }
 .footer-img {
-    height: 50vh;
+    /* height: 50vh; */
     width: 100%;
 }
 footer {
