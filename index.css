@@ -52,15 +52,16 @@ body {
 }
 nav ul li {
     color: white;
-    height: 4em;
+    height: 2em;
     padding: 1em;
-    border-radius: 2em;
+    border-radius: 1em;
     text-align: center;
     font-size: 1rem;
-    width: 150px;
+    width: 8em;
+}
+nav ul {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 h1 {
     font-size: 2em;
@@ -94,6 +95,9 @@ h1 {
 }
 p {
     line-height: 1.5em;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .info {
     text-align: center;
@@ -116,9 +120,12 @@ p {
     height: auto; 
 }
 .footer-img {
-    height: 100vh;
+    height: 50vh;
     width: 100%;
 }
 footer {
     background-color: #F9E7DC;
+}
+strong {
+    font-weight: bold;
 }
