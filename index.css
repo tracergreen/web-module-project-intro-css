@@ -69,20 +69,20 @@ h1 {
     font-size: 2em;
     font-family: 'Chelsea Market', cursive;
 }
-.heading {
-    text-align: center; 
+.header-full {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 .heading div {
     display: flex;
     margin: 1% auto;
     width: 48%;
-    flex-direction: column;
 }
-.heading-img {
-    border-radius: 50%;
+.heading_img {
+    border-radius:50%;
     height: 6em;
     width: 6em;
-    float: left;
 }
 .plan {
     background-color: #FF764E;
@@ -100,7 +100,9 @@ h1 {
     color: white;
     width: 100%;
 }
-
+.info {
+    background-color: #DDB9A3;
+}
 p {
     line-height: 1em;
     width: 40%;
