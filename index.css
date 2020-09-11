@@ -82,7 +82,13 @@ h1 {
 .header-full {
     text-align: center;
     display: inline-block;
-    margin: 0 auto;
+    margin: auto 20%;
+}
+.header-text {
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
 }
 
 .heading div {
@@ -95,6 +101,7 @@ h1 {
     height: 8em;
     width: 8em;
     display: inline-block;
+    margin: 0 -20%;
 }
 .plan {
     background-color: #FF764E;
